@@ -17,7 +17,8 @@
  *
  * @package WordPress
  */
-
+//define('WP_HOME','https://yogeemedia.xyz/websites/fahrschule');
+//define('WP_SITEURL','https://yogeemedia.xyz/websites/fahrschule');
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'bzyyummy_fah' );
