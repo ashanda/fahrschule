@@ -51,7 +51,7 @@
                                        'container_class' => 'navbar-collapse collapse',
                                        'container_id' => 'navbarSupportedContent',
                                        
-                                       'menu_class' => 'navbar-nav mx-auto mb-2 mb-lg-0',
+                                       'menu_class' => 'navbar-nav ms-auto mb-2 mb-lg-0',
                                       
                                         'add_a_class' => 'nav-link',
                                        'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
