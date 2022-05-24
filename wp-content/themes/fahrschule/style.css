@@ -78,7 +78,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 body {
     background-image:
         linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)),
-        url('inc/img/page-background.jpg');
+        url('inc/img/background-new.jpg');
     background-color: #cccccc;
     /* Used if the image is unavailable */
     height: 100%;
