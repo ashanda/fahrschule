@@ -4,9 +4,7 @@ Template Name: Home
 */
 get_header();  ?>
 
-<div class="body-content homepage-background container" style="background-image:
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)),
-    url('<?php echo get_template_directory_uri(); ?>/inc/img/background.jpg');">
+<div class="body-content homepage-background container">
     <div class="header text-center">
         <h2>Voucher</h2>
         <span class="caption">We Learn to Drive Easy</span>
