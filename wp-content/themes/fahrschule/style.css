@@ -251,14 +251,14 @@ body {
 body.home {
     background-image:
         linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)),
-        url('inc/img/back3.jpg');
+        url('inc/img/back4.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 @media only screen and (max-width: 576px) {
     body.home {
-        background-position: 82%;
+        background-position: 21%;
     }
 }
 
