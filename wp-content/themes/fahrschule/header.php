@@ -23,7 +23,7 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- custom css -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
-    <title>Document</title>
+    <title><?php $blog_title = get_bloginfo( 'name' ); ?></title>
 	<?php wp_head(); ?>
 </head>
 
