@@ -236,8 +236,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 /* body-cotent end */
 /* homepage start */
-.homepage-background {
-    height: 100%;
+
+
+.page-template-page-home {
+    background-image:
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)),
+        url('inc/img/background.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
