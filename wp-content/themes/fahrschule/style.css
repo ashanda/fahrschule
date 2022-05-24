@@ -75,10 +75,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 
 /* body */
+
 body {
-    background-image:
-        linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)),
-        url('inc/img/last.jpg');
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)), url('inc/img/last.jpg');
     background-color: #cccccc;
     /* Used if the image is unavailable */
     height: 100%;
@@ -107,12 +106,18 @@ body {
 
 .navbar li {
     padding: 0 10px;
+    border-bottom: solid 1px #adacac;
+}
+
+#menu-main-menu {
+    background-color: #fff;
 }
 
 .navbar li .nav-link {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 14px;
+    text-align: right;
 }
 
 
@@ -246,21 +251,23 @@ body {
 
 
 /* body-cotent end */
+
+
 /* homepage start */
 
 body.home {
-    background-image:
-        linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)),
-        url('inc/img/back4.jpg');
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)), url('inc/img/back4.jpg');
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 @media only screen and (max-width: 576px) {
     body.home {
         background-position: 21%;
     }
 }
+
 
 /* homepage end */
 
@@ -286,6 +293,8 @@ textarea {
     border: 1px solid #c9c9c9;
 }
 
-.woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
     background-color: #0b509f !important;
 }
