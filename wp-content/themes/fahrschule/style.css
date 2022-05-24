@@ -251,8 +251,8 @@ body {
 body.home {
     background-image:
         linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)),
-        url('inc/img/last.jpg');
-    background-position: top;
+        url('inc/img/back3.jpg');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
