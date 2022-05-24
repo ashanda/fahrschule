@@ -159,7 +159,7 @@ body {
     text-transform: uppercase;
     font-size: 16px;
     padding-top: 10px;
-    color: #875848;
+    color: #fd2601;
 }
 
 .body-content .voucher-card .voucher-card-top .content-img {
@@ -183,10 +183,11 @@ body {
 }
 
 .voucher-card .voucher-card-bottom .add_to_cart_button {
+    color: #fff !important;
     width: 100%;
     border-radius: 0 !important;
-    background-color: #875848 !important;
-    border: #875848 !important;
+    background-color: #0b509f !important;
+    border: #0b509f !important;
     padding: 10px 0;
     text-transform: uppercase;
     --bs-btn-color: #fff;
