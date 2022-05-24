@@ -144,7 +144,7 @@ body {
 }
 
 .body-content .voucher-card .voucher-card-top {
-    background-color: #ede0d8;
+    background-color: #fff;
     padding: 20px 20px 40px 20px;
 }
 
@@ -245,7 +245,7 @@ body {
 body.home {
     background-image:
         linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)),
-        url('inc/img/background.jpg');
+        url('inc/img/background-new.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -272,6 +272,7 @@ input,
 textarea {
     padding: 8px;
     border-radius: 5px;
+    border: 1px solid #c9c9c9;
 }
 
 .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
