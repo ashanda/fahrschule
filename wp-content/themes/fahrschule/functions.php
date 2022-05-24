@@ -213,3 +213,8 @@ add_filter( 'show_admin_bar', '__return_false' );
 		  
 	}
 
+	function custom_empty_cart_redirect_url(){
+
+		return home_url();
+		
+		}
