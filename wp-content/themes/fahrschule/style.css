@@ -163,8 +163,15 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     height: auto;
 }
 
+.body-content .voucher-card .voucher-card-top .amount {
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+}
+
 .body-content .voucher-card .voucher-card-top .code {
     text-transform: uppercase;
+    float: right;
 }
 
 .voucher-card .voucher-card-bottom {

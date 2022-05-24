@@ -19,9 +19,14 @@ Template Name: Home
                         <div class="voucher-card-top">
                             <img class="card-img" src="<?php echo get_template_directory_uri(); ?>/inc/img/logo.png" alt="">
                             <span class="voucher">voucher</span>
-                            <img class="content-img" src="<?php echo get_template_directory_uri(); ?>/inc/img/single content.png" alt="">
+                            <?php if(!empty($product->get_image_id())){ ?>
+                                <img class="content-img" src="<?php echo wp_get_attachment_url( $product->get_image_id() ); ?>" alt="">
+                            <?php }else{ ?>
+                                <img class="content-img" src="<?php echo get_template_directory_uri(); ?>/inc/img/no.png" alt="">
+                            <?php } ?>
+                            <img class="content-img" src="<?php echo wp_get_attachment_url( $product->get_image_id() ); ?>" alt="">
                             <div class="code-caption text-end">
-                                <span class="price"><?php echo $product->get_price_html();?></span>
+                                <?php echo $product->get_price_html();?>
                                 <span class="code">code : <?php the_title();?></span>
                                 
                             </div>
