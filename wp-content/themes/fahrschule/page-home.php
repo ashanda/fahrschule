@@ -6,7 +6,7 @@ get_header();  ?>
 
 <div class="body-content homepage-background container">
     <div class="header text-center">
-        <h2>Voucher</h2>
+        <h2>Vouchers</h2>
         <span class="caption">We Learn to Drive Easy</span>
     </div>
     <div class="row my-5">
