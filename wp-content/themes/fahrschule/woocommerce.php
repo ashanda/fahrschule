@@ -14,7 +14,7 @@
 
 get_header();
 ?>
-<main id="primary" class="site-main">
+<div class="body-content container">
 
 <?php
 
@@ -24,7 +24,7 @@ get_header();
 
 ?>
 
-</main><!-- #main -->
+</div><!-- #main -->
 
 
 <?php				
