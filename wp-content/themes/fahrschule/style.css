@@ -235,6 +235,15 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 
 /* body-cotent end */
+/* homepage start */
+.homepage-background {
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* homepage end */
 
 a.added_to_cart.wc-forward {
     text-decoration: none;
