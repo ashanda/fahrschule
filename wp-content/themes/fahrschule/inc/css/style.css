@@ -1,0 +1,101 @@
+/* body */
+.body {
+
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    height: 100%;
+    /* You must set a specified height */
+    background-position: top;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+}
+
+/* navbar start */
+.navbar {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.navbar .navbar-brand img {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+}
+
+.navbar li {
+    padding: 0 10px;
+}
+
+.navbar li .nav-link {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* navbar end */
+/* body-cotent start */
+@media only screen and (min-width: 990px) {
+    .body-content .header {
+        margin-top: 50px;
+    }
+}
+
+.body-content .header .body-content .header h2 {
+    font-weight: bold;
+}
+
+.body-content .header .caption {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 3px 20px;
+}
+
+.body-content .voucher-card {
+    margin: 5%;
+    -webkit-box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.57);
+    box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.57);
+}
+
+.body-content .voucher-card .voucher-card-top {
+    background-color: #ede0d8;
+    padding: 20px;
+}
+
+.body-content .voucher-card .voucher-card-top .card-img {
+    width: 50px;
+}
+
+.body-content .voucher-card .voucher-card-top .voucher {
+    float: right;
+    vertical-align: middle;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top: 10px;
+    color: #875848;
+}
+
+.body-content .voucher-card .voucher-card-top .content-img {
+    width: 100%;
+    height: auto;
+}
+
+.body-content .voucher-card .voucher-card-top .code {
+    text-transform: uppercase;
+}
+
+.voucher-card .voucher-card-bottom {
+    margin-top: 8px;
+}
+
+.voucher-card .voucher-card-bottom .btn {
+    width: 100%;
+    border-radius: 0;
+    background-color: #875848;
+    border: #875848;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+/* body-cotent end */
