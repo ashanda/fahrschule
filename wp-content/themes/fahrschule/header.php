@@ -31,7 +31,7 @@
 <?php wp_body_open(); ?>
     <div class="body" style="background-image:
     linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)),
-    url('<?php echo get_template_directory_uri(); ?>/inc/img/background.jpg');">
+    url('<?php echo get_template_directory_uri(); ?>/inc/img/background2.jpg');">
         <!-- navbar start -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
