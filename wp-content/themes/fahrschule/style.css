@@ -75,8 +75,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 
 /* body */
-
-.body {
+body {
+    background-image:
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)),
+        url('inc/img/background2.jpg');
     background-color: #cccccc;
     /* Used if the image is unavailable */
     height: 100%;
@@ -87,6 +89,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     /* Do not repeat the image */
     background-size: cover;
 }
+
+.body {}
 
 
 /* navbar start */
@@ -140,7 +144,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 }
 
 .body-content .voucher-card .voucher-card-top {
-    background-color: #ede0d8;
+    background-color: #fff;
     padding: 20px 20px 40px 20px;
 }
 
@@ -155,7 +159,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     text-transform: uppercase;
     font-size: 16px;
     padding-top: 10px;
-    color: #875848;
+    color: #fd2601;
 }
 
 .body-content .voucher-card .voucher-card-top .content-img {
@@ -179,10 +183,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 }
 
 .voucher-card .voucher-card-bottom .add_to_cart_button {
+    color: #fff !important;
     width: 100%;
     border-radius: 0 !important;
-    background-color: #875848 !important;
-    border: #875848 !important;
+    background-color: #0b509f !important;
+    border: #0b509f !important;
     padding: 10px 0;
     text-transform: uppercase;
     --bs-btn-color: #fff;
@@ -236,8 +241,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 /* body-cotent end */
 /* homepage start */
-.homepage-background {
-    height: 100%;
+
+body.home {
+    background-image:
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)),
+        url('inc/img/background-new.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -264,6 +272,7 @@ input,
 textarea {
     padding: 8px;
     border-radius: 5px;
+    border: 1px solid #c9c9c9;
 }
 
 .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
