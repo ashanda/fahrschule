@@ -145,7 +145,7 @@ body {
 
 @media only screen and (max-width: 576px) {
     .body-content .voucher-card {
-        margin: 5% 10%;
+        margin: 5% 15%;
     }
 }
 
@@ -251,7 +251,7 @@ body {
 body.home {
     background-image:
         linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)),
-        url('inc/img/back2.jpg');
+        url('inc/img/last.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
