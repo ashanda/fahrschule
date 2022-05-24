@@ -46,14 +46,14 @@
 					<?php
                                        wp_nav_menu( array(
                                        'theme_location' => 'menu-1',
-                                       'depth' => 6,
+                                       'depth' => 2,
                                        'container' => 'false',
                                        'container_class' => 'navbar-collapse collapse',
                                        'container_id' => 'navbarSupportedContent',
                                        
                                        'menu_class' => 'navbar-nav ms-auto mb-2 mb-lg-0',
                                       
-                                        'add_a_class' => 'nav-link',
+                                       'add_a_class' => 'nav-link',
                                        'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
                                        'walker' => new WP_Bootstrap_Navwalker(),
                                        ) );
