@@ -11,7 +11,7 @@ Template Name: Home
             </div>
             <div class="row my-5">
        <?php
-        $args = array( 'post_type' => 'product');
+        $args = array( 'post_type' => 'product','orderby' => 'date','posts_per_page' => 6);
         $loop = new WP_Query( $args );
         while ( $loop->have_posts() ) : $loop->the_post(); global $product; ?>
           	<div class="col-sm-6 col-md-4">
