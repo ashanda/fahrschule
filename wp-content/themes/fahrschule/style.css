@@ -256,6 +256,7 @@ body.home {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 @media only screen and (max-width: 576px) {
     body.home {
         background-position: 21%;
@@ -288,4 +289,10 @@ textarea {
 
 .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
     background-color: #0b509f !important;
+}
+
+/* privacy policy */
+.privacy {
+    margin: auto;
+    padding: 2%;
 }
