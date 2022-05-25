@@ -295,3 +295,8 @@ textarea {
 }
 
 /* privacy policy */
+.privacy-policy .body-content.container {
+    background: #ffffff7a;
+    padding: 3%;
+    border-radius: 20px;
+}
